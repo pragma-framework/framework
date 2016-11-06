@@ -41,7 +41,7 @@ __Exemple :__
 	[...]
 	+-- public
 
-En supposant que vous ayez cette arborescence, vous pouvez rendre accessible les assets souhaités de la façon suivante.
+En supposant que vous ayez cette arborescence, vous pouvez rendre accessibles les assets souhaités de la façon suivante.
 
 	$ cd public
 	$ mkdir assets
