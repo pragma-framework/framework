@@ -1,7 +1,7 @@
 {
     "name": "pragma-framework/framework",
     "description": "The Pragma Framework",
-    "licence": "MIT",
+    "license": "MIT",
     "keywords": ["pragma", "framework"],
     "authors": [
         {"name": "Cyril Rouyer"}
