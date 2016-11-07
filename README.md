@@ -27,7 +27,7 @@ __Exemple :__
 	[...]
 	+-- assets
 	|   +-- images
-	|		+-- javascripts
+	|   +-- javascripts
 	|   |   +-- lib
 	|   |   |   +-- jquery.min.js
 	|   |   +-- app.js
