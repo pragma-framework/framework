@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Clône du dépôt
+1. Clone repository
 
 2. composer install
 
@@ -10,18 +10,18 @@
 
 ## Configuration
 
-Il faut renommer le fichier config.default.php en config.php et compléter les infos attendues pour la connexion à la DB
+Copy the `config.default.php` to `config.php`, and edit the `DB_*` constant values according to your system installation.
 
 	$ make config/config.php
 	$ $VISUAL config/config.php
 
-## Gestion des assets
+## Assets management
 
-Le dossier assets n'est pas directement dans le dossier public qui sert de DocumentRoot à votre serveur WEB.
+The `assets/` folder isn't in the `public/` folder used as the DocumentRoot/root for you Web server.
 
-L'idée est de vous permettre de travailler vos sources et de ne rendre accessibles que les versions compilées (ex : sass --> css, coffee --> js).
+The idea is to allow you to work on your source files and only make the compiled version available to the world (e.g: sass -> css, coffee -> js, ...).
 
-__Exemple :__
+__Hierarchy file structure example:__
 
 	.
 	[...]
@@ -41,11 +41,11 @@ __Exemple :__
 	[...]
 	+-- public
 
-En supposant que vous ayez cette arborescence, vous pouvez rendre accessibles les assets souhaités de la façon suivante.
+Assuming you have this tree, you can make availabe the needed assets as follow:
 
-	$ cd public
-	$ mkdir assets
-	$ cd assets
-	$ ln -s ../../assets/images
-	$ ln -s ../../assets/javascripts
-	$ ln -s ../../assets/stylesheets/dist stylesheets
+	$ cd public/
+	$ mkdir assets/
+	$ cd assets/
+	$ ln -s ../../assets/images ./
+	$ ln -s ../../assets/javascripts ./
+	$ ln -s ../../assets/stylesheets/dist ./stylesheets
