@@ -27,7 +27,7 @@ Copy the `config.default.php` to `config.php`, and edit the `DB_*` constant valu
 
 ## Assets management
 
-The `assets/` folder isn't in the `public/` folder used as the DocumentRoot/root for you Web server.
+The `assets/` folder isn't in the `public/` folder used as the DocumentRoot/root for your Web server.
 
 The idea is to allow you to work on your source files and only make the compiled version available to the world (e.g: sass -> css, coffee -> js, ...).
 
