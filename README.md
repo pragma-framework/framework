@@ -2,9 +2,19 @@
 
 ## Installation
 
-1. Clone repository
+### Using composer
 
-2. composer install
+	$ composer create-project pragma-framework/framework [project-name]
+
+### Using git
+
+	$ git clone https://github.com/pragma-framework/framework.git
+
+## Dependencies
+
+	$ composer install
+
+Alternatively we provide a Makefile for some redundant tasks:
 
 	$ make vendor
 
