@@ -4,7 +4,7 @@
 
 ### Using composer
 
-	$ composer create-project pragma-framework/framework [project-name]
+	$ composer create-project pragma-framework/framework [project-name] dev-master
 
 ### Using git
 
