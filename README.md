@@ -51,7 +51,7 @@ __Hierarchy file structure example:__
 	[...]
 	+-- public
 
-Assuming you have this tree, you can make availabe the needed assets as follow:
+Assuming you have this tree, you can make available the needed assets as follow:
 
 	$ cd public/
 	$ mkdir assets/
