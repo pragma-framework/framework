@@ -2,7 +2,7 @@
 
 ## Installation
 
-### Using composer
+### Using composer
 
 	$ composer create-project pragma-framework/framework [project-name] dev-master
 
